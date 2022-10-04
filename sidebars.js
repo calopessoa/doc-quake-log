@@ -5,7 +5,7 @@ const sidebars = {
   tutorialSidebar: [{
     type: 'category',
     label: 'Doc',
-    items: ['main-id-doc', 'setup', 'authentication', 'routes'],
+    items: ['main-id-doc', 'setup', 'tests', 'notes'],
   }, ],
 };
 

@@ -5,18 +5,20 @@ title: Setting Up
 
 ### Getting Started
 
-First of all, clone the following repository in order to access the databse:
+Firstly, clone the following repository in order to access the databse:
 
 ```js
 git clone 'git@github.com:calopessoa/log-quake.git'
 ```
-Then, move to the backend folder and install dependencies
+Then, move to the project folder...
 
 ```js
 cd log-quake
 ```
 
-This project was parsed using Python. Make sure to use Python. In order to run the tests, it is important to be in a isolated environment, let's use Venv
+This project was parsed using Python. Make sure to use Python if you want to test it.
+The front-end was made using JavaScript (React).
+In order to run the tests, it is important to be in a isolated environment, let's use Venv
 
 :::tip
 In case it is necessary, go to Python official download page and select your Operational System(OS): https://www.python.org/downloads/

@@ -37,6 +37,3 @@ Install testing dependencies
 ```js
 python3 -m pip install pytest
 ```
-<!-- You should get this response:
-![Example banner](../static/img/buildrunning.png) -->
-

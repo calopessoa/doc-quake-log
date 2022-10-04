@@ -1,41 +1,30 @@
-# Website
+# Quake3-Arena Log Viewer - DOCUMENTATION
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+### Documentation for this project
 
+Please check the full project:
+quake3-log-viewer.vercel.app
+
+Or its respository:
+
+https://github.com/calopessoa/log-quake
+
+### Installation and Running
+
+This documentation is fully deployed.
+If you want to contribute, run or just test this documentation:
 ```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+git clone 'git@github.com:calopessoa/doc-quake-log.git'
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
+The move to the project folder...
 ```
-$ USE_SSH=true yarn deploy
+cd doc-quake-log
 ```
 
-Not using SSH:
-
+Now to run it:
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
+npx docusaurus start
 ```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
